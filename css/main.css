@@ -1,0 +1,98 @@
+
+@font-face{
+    font-family: 'Fonte-Projeto';
+    src: url('../fonts/Convergence-Regular.ttf') format('embedded-opentype'),
+    url('../fonts/Convergence-Regular.ttf') format('svg#Fonte-Projeto'),
+    url('../fonts/Convergence-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fonte-Projeto' !important;
+}
+
+.nav {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.container {
+    display: block;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.fluid {
+    width: 1050px;
+    height: auto;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+ul li {
+    list-style: none;
+}
+
+.menu .container .fluid{
+    font-size: 14px;
+}
+.menu .container .fluid .formulario {
+    background-color: #fff;
+    width: 300px;
+    margin: 70px auto 20px auto;
+    padding: 57px 0px;
+    border-radius: 3px;
+    border: 2px solid #98979724;
+    text-align: center;
+    padding-bottom: 130px;
+
+}
+.menu .container .fluid .formulario .senha {
+    margin-right: 130px;
+}
+.menu .container .fluid .formulario .login{
+    margin-right: 138px;
+}
+.menu .container .fluid .formulario .nome_login,
+.menu .container .fluid .formulario .senha_login {
+    margin-bottom: 10px;
+}
+.menu .container .fluid .formulario .entrar{
+    margin-top: 20px;
+    background-color: #4380d5;
+    border-radius: 20px;
+    width: 80px;
+    font-family: 'Fonte-Projeto' !important;
+    color: #fff;
+    border: 0;
+    height: 20px;
+}
+.menu .container .fluid .logo {
+    width: 170px;
+    height: 35px;
+    float: left;
+    margin-top: 20px;
+    margin-left: -90px;
+    
+}
+
+.menu .container .fluid .lembraSenha {
+    margin-left: 450px;
+    text-decoration: revert;
+}
+
